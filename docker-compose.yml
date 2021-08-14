@@ -1,0 +1,6 @@
+version: '3'
+services:
+  ssl-stip:
+    image: xinux/ssl-strip:latest
+    ports:
+      - 80:10000
